@@ -1,9 +1,12 @@
-﻿namespace CSharp8
+﻿using System;
+
+namespace CSharp9
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World!");
         }
     }
 }

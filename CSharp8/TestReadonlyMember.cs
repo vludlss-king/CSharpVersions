@@ -7,12 +7,13 @@
     {
         private int Number1 { get; set; }
         private int Number2 { get; set; }
-        private readonly int Number3 { get; init; }
+        private readonly int Number3 { get; }
 
         public TestReadonlyMember(int number1, int number2)
         {
             Number1 = number1;
             Number2 = number2;
+            Number3 = 3;
         }
 
         /// <remarks>
